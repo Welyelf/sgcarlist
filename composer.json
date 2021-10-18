@@ -1,0 +1,10 @@
+{
+	"description": "Buy and Sell Cars",
+	"name": "carlist/master",
+	"type": "project",
+	"license": "MIT",
+	"require": {
+		"aws/aws-sdk-php": "3.*",
+		"sabmeua/ci-dynamodb-session-driver": "*"
+	}
+}

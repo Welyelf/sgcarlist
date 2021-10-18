@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo "Nothing to do..."
+  post_build:
+    commands:
+      - echo "DONE!!"
+artifacts:
+  files:
+    - '**/*'
